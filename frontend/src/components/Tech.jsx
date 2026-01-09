@@ -1,10 +1,12 @@
 export function Tech({img, alt}) {
   return (
-    <div className="tech-container">
-      <div className="tech">
-          <img src={`techs/${img}`} alt={alt} />
+    <div className="tech">
+      <img src={img} alt={alt} />
+      <div>
+        {alt.split(" ").map((word, i) => (
+          <p key={i} className="t-body6 text-hl3">{word}</p>
+        ))}
       </div>
-      <p>{alt}</p>
     </div>
     
   );

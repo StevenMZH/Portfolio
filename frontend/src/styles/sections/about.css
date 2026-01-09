@@ -1,0 +1,11 @@
+section.about {
+    /* color: var(--text-highlight) */
+}
+
+section.about .description{
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px,60vw,1000px);
+    gap: 30px;
+}
+

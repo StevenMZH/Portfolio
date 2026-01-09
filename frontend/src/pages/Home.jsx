@@ -1,21 +1,34 @@
-import Reveal from "../components/Reveal";
-import About from "./about";
-import Contact from "./contact";
-import Presentation from "./presentation";
-import Projects from "./projects";
-import Techs from "./techs";
+import { lazy, Suspense } from "react";
 
-export function Home() {
+
+import Hero from "./Hero";
+const Projects = lazy(() => import("./Projects"));
+const About = lazy(() => import("./About"));
+const Techs = lazy(() => import("./Techs"));
+
+
+export default function Home() {
   return (
     <>
-      <div className="section-header">
-        <Presentation/>
-        <Projects/>
+
+      <div className="sections column">
+        <Suspense fallback={null}>
+          <Hero/>
+        </Suspense>
+
+        <Suspense fallback={null}>
+          <Projects />
+        </Suspense>
+
+        <Suspense fallback={null}>
+          <About />
+        </Suspense>
+
+        <Suspense fallback={null}>
+          <Techs />
+        </Suspense>
       </div>
-      <About/>
-      <Techs/>
-      <Contact/>
+
     </>
   );
 }
-export default Home;

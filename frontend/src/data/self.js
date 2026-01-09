@@ -1,0 +1,15 @@
+export const self = {
+  name: "Steven Mendoza",
+  title: ["Fullstack Developer & ", "Backend Systems Designer"],
+  image: "profile_pic.webp",
+  description: `I design and build **Backend systems** end-to-end, focusing on APIs, authentication, and infrastructure.
+I work on creating Cloud-ready services with an emphasis on **System design**, scalability, and long-term maintainability.`,
+  aboutMe: [
+  "I approach backend development from a **Systems perspective**, focusing on how components interact and evolve over time. I value thoughtful technical decisions and maintainable architectures over short-term or overly complex solutions.",
+  "I enjoy working close to the **Core of a system**: Designing APIs, Defining responsibilities, Modeling data, and Reasoning about tradeoffs related to scalability and reliability. I’m especially motivated by projects that require understanding system behavior rather than implementing isolated features.",
+  "My interest in backend systems is strongly influenced by my background in computer networks, digital electronics, and applied mathematics, which shapes how I reason about data flow and architectural decisions.",
+  "I am currently in my final year of Cybernetic Electronics Engineering, where I developed a strong foundation in **Systems thinking** and Engineering **Problem-solving**. I value collaboration and clear communication, and I enjoy working in team environments where ideas are shared and refined collectively."
+],
+  footer: "2026 Steven Mendoza"
+
+};

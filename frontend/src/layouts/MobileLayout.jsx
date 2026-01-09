@@ -1,18 +1,28 @@
-import { Outlet } from 'react-router-dom'
-import Header from './Header'
-import Footer from './Footer'
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
+import Reveal from "../components/anims/Reveal";
+import Socials from "./Footer";
+import Background from "./Background";
 
-export function MobileLayout() {
+export default function Layout() {
   return (
     <>
-      <header>
-        <Header/>
-      </header>
-      
-      <main className='full-view flex column'>
-        <Outlet />
-      </main>
+      <Background/>
+
+      <div className="layout gap30">
+        <header className="mobile">
+          <Header />
+        </header>
+
+        <main id="app-main" className="full-view flex column mobile">
+          <Outlet />
+        </main>
+
+        <footer>
+          <Socials/>
+        </footer>
+      </div>
     </>
-  )
+  );
 }
-export default MobileLayout;

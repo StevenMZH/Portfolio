@@ -1,21 +1,25 @@
-import { Outlet } from 'react-router-dom'
-import Header from './Header'
-import Footer from './Footer'
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
+import Background from "./Background";
 
 export default function Layout() {
   return (
     <>
-      <header>
-        <Header/>
-      </header>
-      
-      <main className='full-view flex column'>
-        <Outlet />
-      </main>
+      <Background/>
 
-      <footer>
+      <div className="layout full-view column gap30">
+        <header>
+          <Header />
+        </header>
+        
+
+        <main id="app-main" className="full-view flex column">
+          <Outlet />
+        </main>
+
         <Footer/>
-      </footer>
+      </div>
     </>
-  )
+  );
 }

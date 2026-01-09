@@ -1,29 +1,24 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Suspense, lazy } from "react";
-import { useMediaQuery } from "react-responsive";
-
-import MainLayout from "./layouts/MainLayout";
-import MobileLayout from "./layouts/MobileLayout";
-
-
 
 const Home = lazy(() => import("./pages/Home"));
+const MainLayout = lazy(() => import("./layouts/MainLayout"));
+// const MobileLayout = lazy(() => import("./layouts/MobileLayout"));
 
 function App() {
-  const isMobile = useMediaQuery({ maxWidth: 768 });
-  const Layout = isMobile ? MobileLayout : MainLayout;
+  // const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  // const Layout = isMobile ? MobileLayout : MainLayout;
+  const Layout = MainLayout;
 
   return (
-    <Routes>
-      <Route element={<Layout />}> 
-        <Route path="/" element={ <Suspense fallback={<div></div>}>
-          <Home />
-        </Suspense>}/> 
-        
-      </Route>
-
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <Suspense fallback={<div />}>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Suspense>
   );
 }
 

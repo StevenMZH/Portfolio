@@ -1,0 +1,82 @@
+.project-description {
+    width: 75vw;
+}
+
+
+/* Stack */
+.project-stack{  
+  display: flex;
+  gap: 12px;
+}
+.project-stack div{  
+  background-color: #0000;
+}
+.project-stack img {
+  fill: #fff;
+  filter: invert(0.7);
+  width: 24px;
+  height: 25px;
+}
+
+
+/* Links */
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+.mobile .project-links {
+  gap: 5px;
+}
+
+button.project-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;       
+
+  background-color: var(--highlight2);
+
+  padding: 6px 10px; 
+  border-radius: 10px;
+  border: none;
+  /* box-shadow: var(--shadow); */
+
+  color: var(--text-highlight2);
+  text-align: center;
+  z-index: 1;            
+
+  /* font-weight: 600;
+  font-size: 12px; */
+}
+a.project-link:hover {
+  background-color: var(--highlight1);
+}
+
+.project-links button::before,
+button.project-link::before {
+    border-radius: 20px;
+    z-index: 0;            
+}
+.mobile button.project-link{
+  font-size: 10px;
+  padding: 5px 6px;
+  border-radius: 20px;
+}
+
+
+/* Tags */
+.project-tags{
+  gap: 5px;
+}
+.project-tags p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-highlight);
+  background-color: var(--border);
+  border: 2px solid var(--border);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+

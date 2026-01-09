@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://StevenMZH.github.io/Portfolio", 
+  "homepage": "https://StevenMZH.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +15,9 @@
   "dependencies": {
     "@react-three/drei": "^10.7.3",
     "@react-three/fiber": "^9.3.0",
+    "@tsparticles/engine": "^3.9.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.9.1",
     "axios": "^1.11.0",
     "file-saver": "^2.0.5",
     "framer-motion": "^12.23.12",

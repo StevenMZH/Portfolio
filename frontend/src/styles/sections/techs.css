@@ -1,0 +1,49 @@
+section.techs {
+    background-repeat: no-repeat;          
+    background-size: cover;               
+    background-position: center; 
+}
+
+section.techs .stacks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    padding: 0 20px;
+}
+section.techs .stack {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 30px;
+}
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 100%;
+}
+.tech img {
+    width: 30px;
+    height: 30px;
+    fill: white;
+    filter: invert(0.7);
+}
+
+
+@media (max-width: 768px) {
+    .section.techs .stacks {
+        gap: 30px;
+    }
+    .section.techs .stack {
+        gap: 10px;
+    }
+    .section.techs .tech img{
+        width: 23px;
+        height: 23px;
+    }
+}

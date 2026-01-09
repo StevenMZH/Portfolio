@@ -4,9 +4,6 @@
     display: block;
     width: 100%;
 }
-body main .text-hl {
-    color: var(--text-highlight2);
-}
 .text-title {
     color: var(--text-main);
 }
@@ -24,52 +21,14 @@ body main .text-hl {
     padding: 0;
     border: none;
     overflow: hidden;
-    transform: scale(1);
+    /* transform: scale(1); */
     transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), box-shadow 0.4s ease;
 }
-.card a{
-    margin: 0;
-    padding: 0;
-}
-.card-img{
-    width: 100%;
-    height: 100%;
-}
-.card-description {
-    overflow: hidden;
-    width: 100%;
-    padding: 20px 20px;
-    padding-top: 15px;
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--text-sec);
-    display: flex;
-    flex-direction: row;
-    background-color: var(--bg-light);
-    box-shadow: var(--shadow);
-    overflow: hidden;
-    height: 100%;
-}
 
-.card .card-description .card-text {
-    width: 100%;
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0,0,0,0.65),
+               0 4px 12px rgba(0,0,0,0.85);
 }
-.card .card-description .repo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 8px;
-}
-.card .card-description .title {
-    font-size: 22px;
-    font-weight: 500;
-    padding: 0;
-    padding-bottom: 5px;
-}
-.card:hover {
-    transform: scale(1.02); 
-}
-
 
 .hl1 {
     background-color: var(--highlight1);
@@ -140,6 +99,10 @@ body main .text-hl {
 .center {
     justify-content: center;
 }
+.align {
+    align-items: center;
+}
+
 
 .logo {
     width: 45px;
@@ -147,3 +110,104 @@ body main .text-hl {
 }
 
 
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.full-w {
+    width: 100%;
+}
+.full-h {
+    height: 100%;
+}
+.full-view {
+    width: 100%;
+    height: 100%;
+}
+
+.gap0 {
+    gap: 0px;
+}
+.gap3 {
+    gap: 3px;
+}
+.gap5 {
+    gap: 5px;
+}
+.gap10 {
+    gap: 10px;
+}
+.gap20 {
+    gap: 20px;
+}
+.gap25 {
+    gap: 25px;
+}
+.gap30 {
+    gap: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.row-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.row-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-self: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 3px;
+    /* margin-left: 2px; */
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.light .icon {
+    filter: invert(0.1);
+}
+.dark .icon {
+    filter: invert(0.9);
+}
+
+
+
+@media (max-width: 768px) {
+    div .gap20 {
+        gap: 15px;
+    }
+}

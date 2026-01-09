@@ -1,0 +1,71 @@
+.project-nav {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 5px;
+  padding: 170px 0;
+  padding-right: 20px;
+  align-items: end;
+  justify-content: center;
+  width: 25%;
+  right: 0;
+}
+.project-nav::before {
+  content: "";              
+  position: absolute;         
+  inset: 0;                   
+  pointer-events: none;
+  z-index: -1;
+  pointer-events: none;
+background: radial-gradient(
+  circle at right center,
+  rgba(0, 0, 0, 0.414) 10%,
+  rgba(0, 0, 0, 0.378) 20%,
+  rgba(0, 0, 0, 0.303) 30%,
+  rgba(0, 0, 0, 0) 45%
+);
+}
+.project-nav-option {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  gap: 30px;
+  background-color: #0000;
+  border: #0000;
+  padding: 5px;
+  pointer-events: all;
+}
+.project-nav-option:hover::before {
+  background-color: #0000;  
+}
+
+.project-nav-option img {
+  width: 20px;
+  height: 20px;
+  filter: invert(0.75);
+}
+.project-nav-option p{
+  color: var(--text-highlight2);
+}
+.project-nav-option:hover img, .project-nav-option.selected img {
+    filter: invert(1);
+}
+
+
+/* selected */
+.project-nav-option.selected, .project-nav-option.selected:hover {
+  padding-right: 30px;
+  transition: padding 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), box-shadow 0.4s ease;
+}
+.project-nav-option:hover {
+  padding-right: 40px;
+  transition: padding 0.2s cubic-bezier(0.25, 0.1, 0.25, 1), box-shadow 0.4s ease;
+}
+.project-nav-option.selected p, .project-nav-option:hover p{
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-highlight);
+}
+.project-nav-option.selected img{
+  filter: invert(1);
+}
