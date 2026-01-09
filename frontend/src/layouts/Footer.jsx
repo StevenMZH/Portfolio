@@ -14,7 +14,7 @@ export function Footer() {
         </div>
 
         <div className="column center">
-          <p className="t-body1">{self.footer}</p>
+          <p className="t-body4 text-hl2">{self.footer}</p>
         </div>
 
     </footer>

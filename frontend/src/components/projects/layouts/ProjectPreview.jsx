@@ -23,7 +23,7 @@ function ProjectPreview({ mainImage, title, subtitle, description, links, priori
               <h3 className="h4 text-main">{title}</h3>
               <p className="h5 text-mai keyword2">{subtitle}</p>
             </div>
-            <p className="t-body6 text-hl3">{description}</p>
+            <p className="t-body6 text-sec">{description}</p>
           </div>
 
           <ProjectLinks links={links} />

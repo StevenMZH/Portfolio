@@ -7,7 +7,7 @@ export function Nav() {
   const [active, setActive] = useState("hero");
 
   const handleClick = (id) => {
-    setActive(id);
+    // setActive(id);
 
     const el = document.getElementById(id);
     if (el) {
