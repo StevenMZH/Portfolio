@@ -243,6 +243,12 @@ video {
     box-shadow: none;
 }
 
+
+button, a, input, textarea {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
 /* Vertical */
 @media (max-width: 768px) {
     ::-webkit-scrollbar {

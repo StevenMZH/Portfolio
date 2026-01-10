@@ -38,7 +38,7 @@
 
 .nav a { position: relative; }
 
-.tooltip::after {
+.desktop .tooltip::after {
     content: attr(data-tooltip);
     position: absolute;
     top: calc(100% + 5px);
@@ -61,7 +61,7 @@
 
 }
 
-.tooltip:hover::after { opacity: 1; }
+.desktop .tooltip:hover::after { opacity: 1; }
 
 
 /* text */
