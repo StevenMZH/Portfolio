@@ -1,0 +1,133 @@
+cv:
+  name: Steven Mendoza
+  location: Nicaragua (Remote)
+  email: smendozasymzh@gmail.com
+  phone: +505-8857-9283
+  website: https://stevenmzh.github.io/Portfolio/
+  social_networks:
+    - network: LinkedIn
+      username: steven-mendoza-z
+    - network: GitHub
+      username: StevenMZH
+
+  sections:
+    summary:
+      - Backend-focused fullstack developer with a systems-first approach to backend systems and API design. I work primarily on backend APIs, authentication flows, and infrastructure-aware application design.
+
+      - Final-year Cybernetic Electronics Engineering student with a strong background in computer networks and applied mathematics, shaping how I approach system design, data flow, and architectural tradeoffs.
+
+    projects:
+      - name: '[Hermes Services](https://hermes.purpleblue.site/)'
+        start_date: 2025-01
+        end_date: present
+        summary: DevOps-as-Code platform and PyPI package for automating multi-server deployments and environment management.
+        highlights:
+          - Designed a backend-centric system for infrastructure setup, environment management, and CI/CD automation
+          - Built with Django REST, Docker, Nginx, PostgreSQL, Redis, and Google Cloud Platform
+          - Published as a reusable Python package on PyPI
+          - Emphasis on system design, automation, and reproducible deployments
+
+      - name: '[Quackternion](https://quackternion.purpleblue.site/)'
+        start_date: 2025-04
+        end_date: present
+        summary: Interactive 3D simulator applying spatial transformations using quaternions. Currently in a stable maintenance phase.
+        highlights:
+          - Implements quaternion-based transformations for 3D object simulation
+          - Automatically generates mathematical reports in PDF and LaTeX
+          - Deployed as a backend-driven fullstack application
+
+      - name: '[Eulerian Hades](https://eulerian-hades.purpleblue.site/)'
+        start_date: 2024-01
+        end_date: 2024-12
+        summary: Learning and problem-solving platform for engineering students. Initial version delivered; further development planned.
+        highlights:
+          - Backend-focused educational platform for mathematics and engineering topics
+          - Designed for modular growth and long-term maintainability
+          - Uses Django, PostgreSQL, Redis, Docker, and CI/CD workflows
+
+    experience:
+      - company: NetForemost
+        position: Fullstack Developer
+        start_date: 2025-10
+        end_date: present
+        location: Panama (Remote)
+        highlights:
+          - Contributed to the development and maintenance of a production .NET Core API used by companies for task management, time tracking, payroll, and accountability
+          - Implemented backend endpoints focused on authentication and account lifecycle flows (login, signup, invitations, onboarding, and recovery)
+          - Worked closely with product requirements to ensure consistency between API contracts and client applications
+          - Collaborated with a distributed team following an iterative workflow, participating in estimation, planning, and scope discussions
+          - Supported client-facing development when needed to deliver complete end-to-end features
+
+    skills:
+      - label: Backend & Systems
+        details: Python, Django REST Framework, API design, authentication (JWT, OAuth2), system design, domain modeling
+      - label: Databases
+        details: PostgreSQL, Redis, MongoDB
+      - label: Backend Ecosystems (Production Experience)
+        details: .NET (API development, authentication flows)
+      - label: DevOps & Infrastructure
+        details: Docker, Nginx, GitHub Actions, Google Cloud Platform (GCP), CI/CD automation
+      - label: Frontend
+        details: HTML, CSS, JavaScript, React, React Router, Flutter
+      - label: Engineering Foundations
+        details: Computer networking, digital electronics, applied mathematics, LaTeX
+      - label: Languages
+        details: English (C1 – Professional), Spanish (Native)
+
+    education:
+      - institution: Cybernetic Electronics Engineering
+        area: Cybernetic Electronics Engineering (in progress)
+        degree: Bachelor’s Degree
+        start_date: 2022-01
+        end_date: 2026-12
+        location: Nicaragua
+        highlights:
+          - Strong foundation in systems thinking, engineering problem-solving, and applied mathematics
+          - Academic focus on software development, computer networks, digital electronics, and system modeling
+
+  sort_entries: none
+
+
+
+
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  present: present
+  to: "–"
+
+rendercv_settings:
+  date: '2026-01-01'
+  bold_keywords: []
+  sort_entries: none
+
