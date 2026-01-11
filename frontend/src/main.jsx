@@ -10,7 +10,7 @@ import { AppProviders } from './AppProvider.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AppProviders>
-      <BrowserRouter basename="/Portfolio">
+      <BrowserRouter basename="/">
         <App/>
       </BrowserRouter>
     </AppProviders>
