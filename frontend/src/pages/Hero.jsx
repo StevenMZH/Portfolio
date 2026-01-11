@@ -1,4 +1,3 @@
-import Reveal from "../components/anims/Reveal";
 import { self } from "../data/self";
 import  {socials} from "../data/socials"
 import renderHighlightedText from "../helpers/RenderHighlightedText";
@@ -6,7 +5,14 @@ import renderHighlightedText from "../helpers/RenderHighlightedText";
 export function Hero() {
   return (
     <section id="hero" className="flex section hero">
-        <img src={self.image} alt="Portfolio picture" className="profile-img"/>
+        <img
+          src={self.image}
+          alt="Steven Mendoza portrait"
+          className="profile-img"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+        />
 
         <div className="column gap30">
           <div className="column gap5">
