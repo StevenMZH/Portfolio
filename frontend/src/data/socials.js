@@ -6,12 +6,12 @@ export const socials = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/StevenMZH",
+    url: "https://github.com/steven-mendoza-z",
     img: "github.svg",
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/stevenmendozazh/",
+    url: "https://www.instagram.com/steven.mendoza.z/",
     img: "instagram.svg",
   },
 ];

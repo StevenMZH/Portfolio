@@ -1,5 +1,6 @@
 export const self = {
   name: "Steven Mendoza",
+  email: "steven@steven-mendoza.com",
   title: ["Fullstack Developer & ", "Backend Systems Designer"],
   image: "profile_pic.webp",
   description: `I design and build **Backend systems** end-to-end, focusing on APIs, authentication, and infrastructure.

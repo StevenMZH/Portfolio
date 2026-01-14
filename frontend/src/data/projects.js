@@ -17,8 +17,8 @@
 //     links: {
 //       "View App": "https://hermes.purpleblue.site/",
 //       "Package (PyPI)": "https://pypi.org/project/hermes-deployer/",
-//       "App Repo": "https://github.com/StevenMZH/hermes-deploy-service.git",
-//       "Package Repo": "https://github.com/StevenMZH/DHermes.git",
+//       "App Repo": "https://github.com/steven-mendoza-z/hermes-deploy-service.git",
+//       "Package Repo": "https://github.com/steven-mendoza-z/DHermes.git",
 //     },
 //     tags: [
 //       "System Design", "Networking", "Devops", "Automatization"
@@ -44,7 +44,7 @@
 //   //   images: ["hermes/hermes_preview.webp"],
 //   //   mainImage: "hermes/hermes_preview.webp",
 //   //   project_url: "https://pypi.org/project/hermes-deployer/",
-//   //   repo_url: "https://github.com/StevenMZH/DHermes.git",
+//   //   repo_url: "https://github.com/steven-mendoza-z/DHermes.git",
 //   //   stack: [],
 //   // },
 
@@ -57,7 +57,7 @@
 //     mainImage: "quackternion/quackternion_preview.webp",
 //     links: {
 //       "View App": "https://quackternion.purpleblue.site/",
-//       "Repo": "https://github.com/StevenMZH/Quackternion.git",
+//       "Repo": "https://github.com/steven-mendoza-z/Quackternion.git",
 //     },
 //     stack: [
 //       techs.react, techs.django, techs.latex, techs.reactRouter, techs.postgresql, techs.docker, techs.nginx, techs.gcp, techs.githubActions
@@ -80,7 +80,7 @@
 //     mainImage: "eulerian/eulerian_preview.webp",
 //     links: {
 //       "View App": "https://eulerian-hades.purpleblue.site/",
-//       "Repo": "https://github.com/StevenMZH/Eulerian-hades.git",
+//       "Repo": "https://github.com/steven-mendoza-z/Eulerian-hades.git",
 //     },
 //     stack: [
 //       techs.react, techs.django, techs.reactRouter, techs.postgresql, techs.redis, techs.docker, techs.nginx, techs.gcp, techs.githubActions
@@ -125,8 +125,8 @@ export const projects = [
     links: {
       "View App": "https://hermes.purpleblue.site/",
       "Package (PyPI)": "https://pypi.org/project/hermes-deployer/",
-      "App Repo": "https://github.com/StevenMZH/hermes-deploy-service.git",
-      "Package Repo": "https://github.com/StevenMZH/DHermes.git",
+      "App Repo": "https://github.com/steven-mendoza-z/hermes-deploy-service.git",
+      "Package Repo": "https://github.com/steven-mendoza-z/DHermes.git",
     },
 
     // “Automation” y “DevOps” corregidos
@@ -146,7 +146,7 @@ export const projects = [
     mainImage: "quackternion/quackternion_preview.webp",
     links: {
       "View App": "https://quackternion.purpleblue.site/",
-      "Repo": "https://github.com/StevenMZH/Quackternion.git",
+      "Repo": "https://github.com/steven-mendoza-z/Quackternion.git",
     },
     stack: [
       techs.django,
@@ -177,7 +177,7 @@ export const projects = [
     mainImage: "eulerian/eulerian_preview.webp",
     links: {
       "View App": "https://eulerian-hades.purpleblue.site/",
-      "Repo": "https://github.com/StevenMZH/Eulerian-hades.git",
+      "Repo": "https://github.com/steven-mendoza-z/Eulerian-hades.git",
     },
     stack: [
       techs.django,
