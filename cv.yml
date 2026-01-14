@@ -1,14 +1,14 @@
 cv:
   name: Steven Mendoza
   location: Nicaragua (Remote)
-  email: smendozasymzh@gmail.com
+  email: steven@steven-mendoza.com
   phone: +505-8857-9283
-  website: https://stevenmzh.github.io/Portfolio/
+  website: https://steven-mendoza.com/
   social_networks:
     - network: LinkedIn
       username: steven-mendoza-z
     - network: GitHub
-      username: StevenMZH
+      username: steven-mendoza-z
 
   sections:
     summary:
